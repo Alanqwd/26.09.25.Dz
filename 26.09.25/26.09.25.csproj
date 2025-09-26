@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_26._09._25</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\imageAlan.webp" />
+    <None Remove="Image\imageAlina.webp" />
+    <None Remove="Image\imageAlya.jpg" />
+    <None Remove="Image\imageAnton.jfif" />
+    <None Remove="Image\imageSofia.jpg" />
+    <None Remove="Image\imageW.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\imageAlya.jpg" />
+    <Resource Include="Image\imageSofia.jpg" />
+    <Resource Include="Image\imageW.jpg" />
+  </ItemGroup>
+
+</Project>
